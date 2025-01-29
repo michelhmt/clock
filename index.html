@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div id="imgWrap">
+        <div id="0"></div>
+        <div id="1"></div>
+        <div id="2"></div>
+        <div id="3"></div>
+        <div id="4"></div>
+        <div id="5"></div>
+        <div id="6"></div>
+        <div id="7"></div>
+        <div id="8"></div>
+        <div id="9"></div>
+    </div>
+
+    <div class="flex Center" id="clockWrap">
+        <div class="flex" id="hourWrap">
+            <div id="hour1"></div>
+            <div id="hour2"></div>
+        </div>
+        <span class="sep">:</span>
+        <div class="flex" id="minWrap">
+            <div id="min1"></div>
+            <div id="min2"></div>
+        </div>
+        <span class="sep">:</span>
+        <div class="flex" id="secWrap">
+            <div id="sec1"></div>
+            <div id="sec2"></div>
+        </div>
+    </div>
+    <div id="make10"></div>
+    <div id="reloadBtnWrap"><img id="reloadBtn" src="pic/reloadBtnIcon.png"></div>
+
+    <div id ="backGroundWhite"></div>
+
+    <div id="backGround"></div>
+    <div id="waterChargeImgWrap"><img id="waterChargeImg" src="pic/hokyu/0.jpg" alt=""></div>
+
+    <div id="nav">
+        <div class="" id="settingBtnWrap"><img id="settingBtn" src="pic/tools.svg" alt=""></div>
+    </div>
+    <div class="" id="settingWin">ファイル選択：
+        <select name="fileName" id="fileNameSelector">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select><br />
+        <audio src="sound/Timeless_Swing.mp3" controls></audio>
+        <audio id="voice" src="" controls></audio>
+
+    </div>
+
+    <div id="topWin"><img id="clockLogo" src="pic/clockLogo.png" alt=""></div>
+    <script src="index.js"></script>
+</body>
+</html>
