@@ -74,14 +74,14 @@ function getRandomInt(max) {//引数maxで指定した数までのランダム�
 function timeRedraw() {
     //console.log(dt.getMinutes()+":"+dt.getSeconds());
 
-    /*
+    
     //水分補給アラートをON
     if(dt.getSeconds() == 0 && dt.getMinutes() == 11){  waterChargeAlartOn();}
     if(dt.getSeconds() == 0 && dt.getMinutes() == 32){  waterChargeAlartOn();}
     
     if(dt.getSeconds() == 0 && dt.getMinutes() == 14){ waterChargeAlartOff();}
     if(dt.getSeconds() == 0 && dt.getMinutes() == 35){ waterChargeAlartOff();}
-    */
+    
 
 
 
