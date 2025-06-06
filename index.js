@@ -76,11 +76,11 @@ function timeRedraw() {
 
     
     //水分補給アラートをON
-    if(dt.getSeconds() == 0 && dt.getMinutes() == 11){  waterChargeAlartOn();}
-    if(dt.getSeconds() == 0 && dt.getMinutes() == 32){  waterChargeAlartOn();}
+    if(dt.getSeconds() == 0 && dt.getMinutes() == 01){  waterChargeAlartOn();}
+    if(dt.getSeconds() == 0 && dt.getMinutes() == 31){  waterChargeAlartOn();}
     
-    if(dt.getSeconds() == 0 && dt.getMinutes() == 14){ waterChargeAlartOff();}
-    if(dt.getSeconds() == 0 && dt.getMinutes() == 35){ waterChargeAlartOff();}
+    if(dt.getSeconds() == 0 && dt.getMinutes() == 32){ waterChargeAlartOff();}
+    if(dt.getSeconds() == 0 && dt.getMinutes() == 02){ waterChargeAlartOff();}
     
 
 
